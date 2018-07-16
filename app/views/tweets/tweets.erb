@@ -1,2 +1,8 @@
 <h1>Welcome, <%= current_user.username %></h1>
+
+<% @tweets.each do |tweet| %>
+  <div>
+
+  </div>
+  <%= tweet.content
 <button type="submit" name="submit"><a href="/logout">Log Out</a></button>
