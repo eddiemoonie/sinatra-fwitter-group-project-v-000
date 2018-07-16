@@ -41,7 +41,7 @@ class UsersController < ApplicationController
       session.clear
       redirect '/login'
     else
-      redirect '/'
+      redirect '/tweets'
     end
   end
 
