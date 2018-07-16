@@ -17,6 +17,7 @@ class TweetsController < ApplicationController
       erb :'tweets/create_tweet'
     else
       redirect '/login'
+    end
   end
 
   post '/tweets' do
@@ -36,3 +37,4 @@ class TweetsController < ApplicationController
     end
   end
 end
+
