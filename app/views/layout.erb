@@ -7,6 +7,11 @@
 
     <div class="container">
       <h1>Fwitter</h1>
+      <nav>
+        <% if logged_in %>
+          <button type="submit" name="submit"><a href="/logout">Log Out</a></button>
+        <% end >
+      </nav>
     </div>
 
     <%= yield %>
